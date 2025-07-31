@@ -1,0 +1,89 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+section.hero-section{
+    background-image: url(../assets/pexels-minan1398-1134188.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 75vh;
+    color: #fff;
+}
+ .section{
+    width: 40%;
+    margin-inline: auto;
+    max-width: 620px;
+    padding-block-start: 20em;
+}
+.hero-section .section p{
+    font-size: 1.2rem;
+    padding-bottom: .9em;
+}
+.section h1{
+    font-size: 3.8rem;
+    /* margin-top: .8em; */
+} 
+.section span{
+    color: hsl(153, 60%, 30%);
+}
+.section button{
+    border: 0;
+    padding: .8em 1.3em;
+    margin-top: 3em;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-style: italic;
+    background-color: hsl(153, 60%, 30%);
+    border-radius: 28px;
+    transition: all 0.4s ease-in-out;
+}
+.section button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: hsl(153, 60%, 30%);
+    box-shadow: 0 8px 8px hsl(0, 0%, 0%);
+}
+
+@media(max-width:600px) {
+    section.hero-section{
+        min-height: 60vh;
+        background-position: center top;
+    }
+    .section {
+        width: 90%;
+        padding-block-start: 8.8em;
+    }
+    .hero-section .section p{
+        font-size: 1rem;
+        padding-top: 1em;
+    }
+    .hero-section .section h1{
+        font-size: 3rem;
+    }
+    .hero-section .section button{
+        margin-top: 1.7em;
+        font-size: .82em;
+        padding: .6em .89em;
+    }
+}
+@media(min-width:600px) and (max-width:1600px) {
+    .section{
+        width: 80%;
+        padding-block-start: 13em;
+    }
+    .hero-section .section p{
+        font-size: 1rem;
+        padding-top: 1em;
+    }
+    .hero-section .section h1{
+        font-size: 3rem;
+    }
+    .hero-section .section button{
+        margin-top: 1.7em;
+        font-size: .82em;
+        padding: .6em .89em;
+    }
+}

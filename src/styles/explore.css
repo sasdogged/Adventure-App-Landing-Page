@@ -1,0 +1,37 @@
+
+.explore-section{
+    background-image: url(../assets/pexels-jess-vide-4321137.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 86vh;
+}
+section.section{
+    margin-inline: auto;
+    width: 80%;
+    max-width: 800px;
+    padding-block: 22em;
+}
+.section p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.section h1{
+    color: #fff;
+    
+}
+@media(max-width:600px) {
+    section.section{
+        padding-block: 7em 0;
+        /* margin-inline: auto;
+        width: 80%;
+        max-width: 300px; */
+    }
+    .section p{
+    font-size: .7rem;
+}
+.section h1{
+    font-size: 2.3rem;
+}
+}

@@ -1,0 +1,140 @@
+.essential{
+    background-color: hsl(120, 1%, 14%);
+    min-height: 200px;
+}
+.essentials-container{
+    width: 80%;
+    max-width: 870px;
+    margin-inline: auto;
+    padding-block: 8em 6em;
+}
+.essentials-container h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: hsl(110, 16%, 47%);
+}
+.essentials-container h3{
+    color: #fff;
+    text-align: center;
+    font-size: 2.6rem;
+    padding-block: .4em 1.3em;
+    word-spacing: 5px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4em;
+}
+/* essential button styling */
+.essential-button{
+    border: 0;
+    margin: auto;
+    width: 50%;
+   display: block;
+   margin-block: 2.1em .3em;
+   background-color: hsl(0, 0%, 20%);
+   border-radius: 20px;
+   color: hsl(84, 69%, 51%);
+   padding: .8em 1em;
+   text-align: center;
+   transition: all 0.5s ease-in-out;
+}
+.essential-button:hover{
+    background-color: hsl(84, 69%, 51%);
+    color: #000;
+    cursor: pointer;
+}
+
+/* Grid1 */
+.grid:hover > :not(:hover){  
+    filter:blur(5px)
+    opacity(0.5);
+}
+.grid .grid1{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 11px;
+    max-width: 310px;
+    padding: 1.3em 1.7em;
+    line-height: 23px;
+    cursor: pointer;
+}
+.grid1 img{
+    margin: auto;
+    width: 50%;
+   display: block;
+}
+.grid1 h4{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-block: .8em;
+}
+.grid1 p{
+    color: #fff;
+    text-align: center;
+    font-size: .89rem;
+}
+
+/* Grid2 */
+.grid .grid2{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 11px;
+    max-width: 310px;
+    padding: 1.3em 1.7em;
+    line-height: 23px;
+    cursor: pointer;
+}
+.grid2 img{
+    margin: auto;
+    width: 50%;
+   display: block;
+}
+.grid2 h4{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-block: .8em;
+}
+.grid2 p{
+    color: #fff;
+    text-align: center;
+    font-size: .89rem;
+}
+
+/* Grid3 */
+.grid .grid3{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 11px;
+    max-width: 310px;
+    padding: 1.3em 1.7em;
+    line-height: 23px;
+    cursor: pointer;
+}
+.grid3 img{
+    margin: auto;
+    width: 50%;
+   display: block;
+}
+.grid3 h4{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-block: .8em;
+}
+.grid3 p{
+    color: #fff;
+    text-align: center;
+    font-size: .89rem;
+}
+
+@media(max-width:762px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+}
