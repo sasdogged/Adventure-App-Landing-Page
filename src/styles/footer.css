@@ -25,10 +25,9 @@
 .k{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: .8em;
-}
-.k span:first-child{
-    justify-items: center;
 }
 .k span:last-child{
     color: hsl(80, 81%, 50%);
