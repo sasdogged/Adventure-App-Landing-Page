@@ -45,7 +45,8 @@
     font-weight: 500;
 }
 .nav ul li a:hover{
-    color: hsl(80, 61%, 40%);
+    /* color: hsl(80, 61%, 40%); */
+    color: #212529;
 }
 
 @media(max-width:800px) {
